@@ -5,7 +5,7 @@ const router = express.Router();
 
 router.get('/mail/user/:email',controllers.getUser);
 
-router.get('/mail/message/:email',controllers.getAllMessage);
+router.get('/mail/message',controllers.getAllMessage);
 
 router.get('/mail/send',controllers.sendMail);
 
